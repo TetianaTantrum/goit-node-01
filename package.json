@@ -1,0 +1,34 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetianaTantrum/Tetiana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TetianaTantrum/Tetiana/issues"
+  },
+  "homepage": "https://github.com/TetianaTantrum/Tetiana#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.22"
+  }
+}
